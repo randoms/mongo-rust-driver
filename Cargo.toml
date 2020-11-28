@@ -29,7 +29,6 @@ sync = ["async-std-runtime"]
 async-trait = "0.1.24"
 base64 = "0.11.0"
 bitflags = "1.1.0"
-bson = "1.1.0"
 chrono = "0.4.7"
 derivative = "2.1.1"
 err-derive = "0.2.3"
@@ -94,6 +93,10 @@ features = ["dangerous_configuration"]
 [dependencies.uuid]
 version = "0.8.1"
 features = ["v4"]
+
+[dependencies.bson]
+version = "1.1.0"
+git = "https://github.com/randoms/bson-rust"
 
 [dev-dependencies]
 approx = "0.3.2"
